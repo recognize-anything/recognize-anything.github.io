@@ -1,1 +1,1 @@
-# recognize-anything.github.io
+# RecognizeAnything.github.io

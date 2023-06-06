@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Recognize Anything: A Strong Image Tagging Model.">
+  <meta name="keywords" content="RAM, Image Tagging">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recognize Anything: A Strong Image Tagging Model</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <!-- <a class="navbar-item" href="https://keunhong.com"> -->
+        <a class="navbar-item" href="">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Recognize Anything<br><font size="6.5">A Strong Image Tagging Model</h1>
+          <!-- <h2 class="title is-1 publication-title"><font size="6">A Strong Image Tagging Model</font></h2> -->
+          <!-- <h1 class="title is-1 publication-title">Recognize Anything<br> A Strong Image Tagging Model</h1> -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=j5idDP8AAAAJ">Youcai Zhang</a><sup>1*</sup>,</span>
+            <span class="author-block">
+            <span class="author-block">
+              <a href="https://xinyu1205.github.io/">Xinyu Huang</a><sup>1*</sup>,</span>
+              <a>Jinyu Ma</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a>Zhaoyang Li</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a>Zhaochuan Luo</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a>Yanchun Xie</a><sup>1</sup>,</span><br>
+                <span class="author-block">
+                  <a>Yuzhuo Qin</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a>Tong Luo</a><sup>1</sup>,</span>
+                <span class="author-block">
+                <a>Yaqian Li</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a>Shilong Liu</a><sup>2</sup>,</span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?hl=zh-CN&user=fWDoWsQAAAAJ">Yandong Guo</a><sup>3</sup>,</span>    
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=fIlGZToAAAAJ">Lei Zhang</a><sup>2</sup></span>                          
+            <!-- <span class="author-block">
+                <a href="https://shepnerd.github.io/">Yi Wang</a><sup>2</sup>,</span>
+            <span class="author-block">
+                <a>Yu Qiao</a><sup>2</sup>,</span>
+            <span class="author-block">
+                  <a href="https://weidixie.github.io/">Weidi Xie</a><sup>2,3</sup>,</span> -->
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>OPPO Research Institute,</span>
+            <span class="author-block"><sup>2</sup>International Digital Economy Academy (IDEA),</span>
+            <span class="author-block"><sup>3</sup>AI<sup>2</sup> Robotics</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2303.05657.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/xinyu1205/Tag2Text"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Official Code</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="https://huggingface.co/spaces/xinyu1205/Tag2Text"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fa-solid fa-face-smiling-hands"></i>
+                  </span>
+                  <span>Tag2Text Demo</span>
+                  </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/IDEA-Research/Grounded-Segment-Anything"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Tag2Text & Grounded-SAM </span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/ram_grounded_sam.jpg" style="width: 400%" alt>
+      <h2 class="subtitle has-text-centered">
+        <a href="https://github.com/IDEA-Research/Grounded-Segment-Anything" target="_blank" title="tag_list"><span style="color: orange; font-weight:bold">RAM recognize more valuable tags than other models</span></a>.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Highlight</h2>
+          <div class="content has-text-justified">
+          <p>
+            <b>Tag2Text is an efficient and controllable vision-language model with tagging guidance. </b>
+            <li><b>Tagging</b>. Without manual annotations, Tag2Text achieves <b>superior</b> image tag recognition ability of <a href="https://github.com/xinyu1205/Tag2Text/blob/main/data/tag_list.txt" target="_blank" title="tag_list">3,429</a> commonly human-used categories.</li>
+            <li><b>Efficient</b>. Tagging guidance effectively enhances the performance of vision-language models on both <b>generation-based</b> and <b>alignment-based</b> tasks.</li>
+            <li><b>Controllable</b>. Tag2Text permits users to input <b>desired tags</b>, providing the flexibility in composing corresponding texts based on the input tags.</li>
+            <img src="static/images/framework.png" style="width: 100%" alt>
+                  </p>
+          </div>
+        </div>
+    </div>
+    <!--/ Abstract. -->
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+      <!-- Visual Effects. -->
+      <h2 class="title is-3">Visualization Results on Image Captioning</h2>
+      <div class="content has-text-justified">
+      <p>
+      Tag2Text integrates <b>recognized image tags</b> into text generation as <b>guiding elements (highlighted in green underline)</b>, resulting in the generation with <b>more comprehensive text descriptions</b>. 
+      Moreover, Tag2Text permits users to input desired tags, providing the flexibility in composing corresponding texts based on the input tags.</p>
+        <img src="static/images/caption_visualization.png" style="width: 100%" alt>
+      
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+      <!-- Visual Effects. -->
+      <h2 class="title is-3">Visualization Results on Image-Text Retrieval</h2>
+      <div class="content has-text-justified">
+      <p>
+        Tag2Text provides tags as <b>additional visible alignment indicators (highlighted in green underline)</b>.</p>
+        <img src="static/images/retrieval_visualization.png" style="width: 100%" alt>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">  
+        <h2 class="title is-3">Visualization Results on Image-Text Retrieval</h2>
+        <p>Tag2Text provides tags as <b>additional visible alignment indicators</b> (highlighted in green underline).</p>
+        <img src="static/images/retrieval_visualization.png" style="width: 100%" alt>
+    </div>
+    </div>
+  </div>
+</section>
+ -->
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{huang2023tag2text,
+  title={Tag2Text: Guiding Vision-Language Model via Image Tagging},
+  author={Huang, Xinyu and Zhang, Youcai and Ma, Jinyu and Tian, Weiwei and Feng, Rui and Zhang, Yuejie and Li, Yaqian and Guo, Yandong and Zhang, Lei},
+  journal={arXiv preprint arXiv:2303.05657},
+  year={2023}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/abs/2303.05657">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/xinyu1205/Tag2Text" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="content">
+        <p>
+          The template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

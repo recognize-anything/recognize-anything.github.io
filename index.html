@@ -33,6 +33,7 @@
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+    <!-- <link rel="icon" > -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22> </text></svg>">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -64,6 +65,20 @@
         <a class="navbar-link">
           More Research
         </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://recognize-anything.github.io/">
+            Recognize Anything
+          </a>
+          <a class="navbar-item" href="https://tag2text.github.io/">
+            Tag2Text
+          </a>
+          <a class="navbar-item" href="https://github.com/xinyu1205/IDEA-pytorch">
+            IDEA
+          </a>
+          <a class="navbar-item" href="https://github.com/xinyu1205/robust-loss-mlml">
+            Robust-Loss-MLML
+          </a>
+        </div>
       </div>
     </div>
 
@@ -119,12 +134,12 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2303.05657.pdf"
+                <a href="https://arxiv.org/pdf/2306.03514.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>Paper</span>
+                  <span>RAM Paper</span>
                 </a>
               </span>
 
@@ -136,6 +151,16 @@
                       <i class="fab fa-github"></i>
                   </span>
                   <span>Official Code</span>
+                  </a>
+              </span>
+              <span class="link-block">
+                <a href="https://tag2text.github.io/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <!-- <i class="fas fa-file-pdf"></i> -->
+                      <i class="fab fa-slideshare"></i>
+                  </span>
+                  <span>Tag2Text</span>
                   </a>
               </span>
               <span class="link-block">
@@ -180,7 +205,7 @@
     <div class="hero-body">
       <img src="static/images/ram_grounded_sam.jpg" style="width: 100%" alt>
       <h2 class="subtitle has-text-centered">
-        <a href="https://github.com/IDEA-Research/Grounded-Segment-Anything" target="_blank" title="tag_list"><span style="color: orange; font-weight:bold">RAM can recognize any common category with high accuracy.</span></a>
+        <a href="https://github.com/IDEA-Research/Grounded-Segment-Anything" target="_blank" title="tag_list"><span style="color: orange; font-weight:bold">RAM (Recognize Anything Model) can recognize any common category with high accuracy.</span></a>
       </h2>
     </div>
   </div>
@@ -255,20 +280,19 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>   @misc{zhang2023recognize,
-      title={Recognize Anything: A Strong Image Tagging Model}, 
-      author={Youcai Zhang and Xinyu Huang and Jinyu Ma and Zhaoyang Li and Zhaochuan Luo and Yanchun Xie and Yuzhuo Qin and Tong Luo and Yaqian Li and Shilong Liu and Yandong Guo and Lei Zhang},
-      year={2023},
-      eprint={2306.03514},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}</code></pre>
-    <!-- <pre><code>@article{huang2023tag2text,
+<pre><code>@misc{zhang2023recognize,
+title={Recognize Anything: A Strong Image Tagging Model}, 
+author={Youcai Zhang and Xinyu Huang and Jinyu Ma and Zhaoyang Li and Zhaochuan Luo and Yanchun Xie and Yuzhuo Qin and Tong Luo and Yaqian Li and Shilong Liu and Yandong Guo and Lei Zhang},
+year={2023},
+eprint={2306.03514},
+archivePrefix={arXiv},
+primaryClass={cs.CV}
+
+@article{huang2023tag2text,
   title={Tag2Text: Guiding Vision-Language Model via Image Tagging},
   author={Huang, Xinyu and Zhang, Youcai and Ma, Jinyu and Tian, Weiwei and Feng, Rui and Zhang, Yuejie and Li, Yaqian and Guo, Yandong and Zhang, Lei},
   journal={arXiv preprint arXiv:2303.05657},
-  year={2023} -->
-}</code></pre>
+  year={2023}}</code></pre>
   </div>
 </section>
 

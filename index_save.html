@@ -157,15 +157,6 @@
                   <span>Tag2Text & Grounded-SAM </span>
                   </a>
               </span>
-              <span class="link-block">
-                <a href="https://huggingface.co/spaces/xinyu1205/Tag2Text"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fa-solid fa-face-smiling-hands"></i>
-                  </span>
-                  <span>RAM Demo (Comming Soon!)</span>
-                  </a>
-              </span>
             </div>
           </div>
         </div>
@@ -180,29 +171,95 @@
     <div class="hero-body">
       <img src="static/images/ram_grounded_sam.jpg" style="width: 100%" alt>
       <h2 class="subtitle has-text-centered">
-        <a href="https://github.com/IDEA-Research/Grounded-Segment-Anything" target="_blank" title="tag_list"><span style="color: orange; font-weight:bold">RAM can recognize more valuable tags than other models</span></a>.
+        <a href="https://github.com/IDEA-Research/Grounded-Segment-Anything" target="_blank" title="tag_list"><span style="color: orange; font-weight:bold">RAM recognize more valuable tags than other models</span></a>.
       </h2>
     </div>
   </div>
 </section>
 
 
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Highlight</h2>
+          <div class="content has-text-justified">
+          <p>
+            <b>Tag2Text is an efficient and controllable vision-language model with tagging guidance. </b>
+            <li><b>Tagging</b>. Without manual annotations, Tag2Text achieves <b>superior</b> image tag recognition ability of <a href="https://github.com/xinyu1205/Tag2Text/blob/main/data/tag_list.txt" target="_blank" title="tag_list">3,429</a> commonly human-used categories.</li>
+            <li><b>Efficient</b>. Tagging guidance effectively enhances the performance of vision-language models on both <b>generation-based</b> and <b>alignment-based</b> tasks.</li>
+            <li><b>Controllable</b>. Tag2Text permits users to input <b>desired tags</b>, providing the flexibility in composing corresponding texts based on the input tags.</li>
+            <img src="static/images/framework.png" style="width: 100%" alt>
+                  </p>
+          </div>
+        </div>
+    </div>
+    <!--/ Abstract. -->
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+      <!-- Visual Effects. -->
+      <h2 class="title is-3">Visualization Results on Image Captioning</h2>
+      <div class="content has-text-justified">
+      <p>
+      Tag2Text integrates <b>recognized image tags</b> into text generation as <b>guiding elements (highlighted in green underline)</b>, resulting in the generation with <b>more comprehensive text descriptions</b>. 
+      Moreover, Tag2Text permits users to input desired tags, providing the flexibility in composing corresponding texts based on the input tags.</p>
+        <img src="static/images/caption_visualization.png" style="width: 100%" alt>
+      
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+      <!-- Visual Effects. -->
+      <h2 class="title is-3">Visualization Results on Image-Text Retrieval</h2>
+      <div class="content has-text-justified">
+      <p>
+        Tag2Text provides tags as <b>additional visible alignment indicators (highlighted in green underline)</b>.</p>
+        <img src="static/images/retrieval_visualization.png" style="width: 100%" alt>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">  
+        <h2 class="title is-3">Visualization Results on Image-Text Retrieval</h2>
+        <p>Tag2Text provides tags as <b>additional visible alignment indicators</b> (highlighted in green underline).</p>
+        <img src="static/images/retrieval_visualization.png" style="width: 100%" alt>
+    </div>
+    </div>
+  </div>
+</section>
+ -->
+
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>   @misc{zhang2023recognize,
-      title={Recognize Anything: A Strong Image Tagging Model}, 
-      author={Youcai Zhang and Xinyu Huang and Jinyu Ma and Zhaoyang Li and Zhaochuan Luo and Yanchun Xie and Yuzhuo Qin and Tong Luo and Yaqian Li and Shilong Liu and Yandong Guo and Lei Zhang},
-      year={2023},
-      eprint={2306.03514},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}</code></pre>
-    <!-- <pre><code>@article{huang2023tag2text,
+    <pre><code>@article{huang2023tag2text,
   title={Tag2Text: Guiding Vision-Language Model via Image Tagging},
   author={Huang, Xinyu and Zhang, Youcai and Ma, Jinyu and Tian, Weiwei and Feng, Rui and Zhang, Yuejie and Li, Yaqian and Guo, Yandong and Zhang, Lei},
   journal={arXiv preprint arXiv:2303.05657},
-  year={2023} -->
+  year={2023}
 }</code></pre>
   </div>
 </section>
